@@ -48,7 +48,7 @@ const readNotesHandler = (request, h) => {
       data: {notes}
     })
 
-    response.code = 204;
+    response.code(204);
     return response;
   }
   const response = h.response({
