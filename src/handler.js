@@ -43,12 +43,11 @@ const readNotesHandler = (request, h) => {
 
   if (notes.length < 1) {
     const response = h.response({
-      status: 'warning',
+      status: 'No Content',
       message: 'Catatan Masih Kosong',
       data: {notes}
     })
 
-    response.code(204);
     return response;
   }
   const response = h.response({
