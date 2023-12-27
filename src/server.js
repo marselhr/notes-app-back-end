@@ -4,7 +4,7 @@ const routes = require('./routes');
 const init = async () => {
   const server = Hapi.server({
     port: 5000,
-    host: '8.219.102.13',
+    host: 'iZt4nblwg5j38aa8s10posZ',
     routes: {
       cors: {
         origin: ['*'],
@@ -16,7 +16,7 @@ const init = async () => {
   server.route(routes);
   await server.start();
 
-  console.log(`Server Berjalan Padaf: ${server.info.uri}`);
+  console.log(`Server Berjalan Pada: ${server.info.uri}`);
 };
 
 init();
