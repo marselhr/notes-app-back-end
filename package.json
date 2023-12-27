@@ -1,15 +1,15 @@
 {
   "name": "notes-app-back-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "Coba Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["marsel"],
+  "author": "Marsel",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
