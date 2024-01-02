@@ -40,13 +40,12 @@ const addNotesHandler = (request, h) => {
 };
 
 const readNotesHandler = (request, h) => {
-
   if (notes.length < 1) {
     const response = h.response({
       status: 'No Content',
       message: 'Catatan Masih Kosong',
-      data: {notes}
-    })
+      data: {notes},
+    });
 
     return response;
   }
